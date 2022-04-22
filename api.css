@@ -55,3 +55,16 @@
   .container.innerHTML{
       margin-left: 500px;
   }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+
+ 

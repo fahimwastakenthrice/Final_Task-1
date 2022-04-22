@@ -29,13 +29,16 @@ function loadMeal (data){
     // var newDiv = document.createElement("div");
 
      container.innerHTML = `<p><b> ${title} </b></p>
-                        <p> ID : ${id}; </p>
+                        <p> ID : ${id}</p>
                          <img src="${imgLink}" <br/>
-                        <b> <p> Category: ${cat} </p>; </b>
+                        <b> <p> Category: ${cat} </p> </b>
                         <p>Instructions: ${Instructions}</p> ; `
 
    
 
     container.appendChild(newDiv);
 
+
+
 }
+
