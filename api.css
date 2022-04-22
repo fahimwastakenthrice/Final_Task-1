@@ -54,6 +54,7 @@
 
   .container.innerHTML{
       margin-left: 500px;
+      margin-right: 50px ;
   }
 
 
@@ -67,4 +68,4 @@ body{
     font-family: sans-serif;
 }
 
- 
+

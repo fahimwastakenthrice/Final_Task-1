@@ -24,7 +24,8 @@ function loadMeal (data){
      var imgLink = data.meals[0].strMealThumb;
      var cat = data.meals[0].strCategory;
      var title = data.meals[0].strMeal;
-     var Instructions = data.meals[0].strInstructions;
+     var Instructions = data.meals[0].strInstructions
+     var YT= data.meals[0].strYoutube;
 
     // var newDiv = document.createElement("div");
 
@@ -32,7 +33,8 @@ function loadMeal (data){
                         <p> ID : ${id}</p>
                          <img src="${imgLink}" <br/>
                         <b> <p> Category: ${cat} </p> </b>
-                        <p>Instructions: ${Instructions}</p> ; `
+                        <p>Instructions: ${Instructions}</p>
+                        <p>YouTbe Link: ${YT} </p>; `
 
    
 
